@@ -78,6 +78,8 @@ const applicationServerKey = urlB64ToUint8Array('BEJk7KDNycfPJf1QiyeoMRVbD03S7TZ
 
         console.log(JSON.stringify(subscription));
 
+        document.querySelector('.push-endpoint-data').textContent = JSON.stringify(subscription);
+
         //saveSubscriptionID(subscription);
         changePushStatus(true);
       })
