@@ -1,2 +1,3 @@
 # Adam-Fausett.github.io
-Playground site
+
+This is a personal playground site housing anything I might wanna poke at 😃
